@@ -113,11 +113,6 @@ header .container {
     position: relative;
 }
 
-/*-----------------------------*/
-/*.portfolio {
-    color: #404bbf;
-}*/
-/*----------------------------*/
 .studio::after {
     position: absolute;
     content: "";
@@ -131,18 +126,6 @@ header .container {
 
 }
 
-/*----------------------------*/
-/*.portfolio:hover::after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 66px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404BBF;
-    margin-top: 20px;
-}*/
-/*----------------------------*/
 .contact {
     display: flex;
     gap: 40px;
@@ -441,7 +424,6 @@ header .container {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*--------------------------------------------------------------------------------------*/
 footer {
     background-color: #2E2F42;
     padding: 100px 0;
